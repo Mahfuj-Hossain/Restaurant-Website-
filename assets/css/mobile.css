@@ -1,0 +1,30 @@
+/* special menu styling from here */
+.special-menu-pic img {
+    height: 11rem;
+    width: 10rem;
+}
+/* contact area styling */
+.contact-mid-tag-line p {
+    width: 25rem;
+}
+
+/* location outlet styling here */
+.location-outlet {
+    display: grid;
+    padding: 0 2rem;
+    grid-template-columns: .4fr .1fr .4fr .1fr .4fr;
+}
+
+.max-width-768-style{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 111;
+}
+/* blog area styling */
+.blog-mid-tag-line h2 {
+    font-size: 1.2rem;
+}
+.blog-mid-tag-line p {
+    font-size: 1.1rem;
+}

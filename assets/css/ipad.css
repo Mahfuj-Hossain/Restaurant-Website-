@@ -1,0 +1,165 @@
+/* header area styling */
+.header-style {
+    height: 100vh;
+}
+
+.menu {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    width: 100%;
+}
+.menu img {
+    width: 15rem;
+    height: 11rem;
+}
+.menu-image p {
+    width: 100%;
+}
+.menu-banner {
+    height: auto;
+    width: 90%;
+    padding: 0rem 2rem;
+    margin: auto;
+}
+.the-middle-section {
+    width: 145%;
+}
+.logo-menu img {
+    height: 6.5rem;
+    width: 6.5rem;
+    border: none;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.the-middle-section {
+    width: 125%;
+}
+.menu-button button {
+    margin-bottom: 1rem;
+}
+
+
+/* background overlay styling */
+.display-area-pic {
+    height: auto;
+    padding: 4rem 0;
+}
+.display-area-pic h2 {
+    font-size: 3.5rem;
+}
+
+
+/* special menu styling */
+.special-menu {
+    height: auto;
+    margin: 3rem 0;
+}
+.special-menu {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: .7fr 1.2fr;
+    margin: 0 auto;
+    align-items: center;
+}
+.special-menu-pic img {
+    height: 8rem;
+    width: 8rem;
+}
+.menu-description {
+    width: 80%;
+    margin: auto;
+    grid-gap: 1.8rem;
+}
+/* reservation area styling */
+.reservation-area {
+    height: auto;
+    padding: 4rem 2rem;
+}
+
+.left-pic img {
+    height: 19rem;
+    width: 19rem;
+}
+.form-heading-line h2 {
+    font-size: 2rem;
+}
+.form-heading-line h3 {
+    font-size: 1.8rem;
+}
+/* about section styling */
+.about-description p {
+    padding: 0 1rem;
+    text-align: justify;
+}
+.mission-and-vision {
+    height: auto;
+    padding: 3rem 0;
+    width: 90%;
+    margin: auto;
+}
+.our-vision {
+    padding: 0 1rem;
+    text-align: justify;
+}
+.our-mission {
+    padding: 0 1rem;
+    text-align: justify;
+}
+.online-booking {
+    height: auto;
+    padding: 5rem 0;
+}
+#book-btn {
+    margin-top: 3rem;
+}
+
+/* contact us area styling */
+
+
+.location-outlet {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 3.5rem auto;
+    width: 96%;
+    grid-gap: 2rem;
+}
+
+.contact-form {
+    padding: 3rem 0;
+}
+
+
+/* blog area styling */
+.inner-section-blog {
+    height: auto;
+    padding: 3rem 3.5rem;
+}
+.time-date-event {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.the-blog-image {
+    padding: 0 2rem;
+}
+.the-blog-image img {
+    height: auto;
+    width: 100%;
+    padding: 0 ;
+    margin: auto;
+}
+.blog-description {
+    text-align: justify;
+}
+
+/* footer area styling */
+.ft {
+    padding: 3rem 2rem;
+}
