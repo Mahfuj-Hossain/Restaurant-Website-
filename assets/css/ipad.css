@@ -52,22 +52,17 @@
 
 
 /* special menu styling */
+
 .special-menu {
-    height: auto;
-    margin: 3rem 0;
-}
-.special-menu {
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: .7fr 1.2fr;
-    margin: 0 auto;
-    align-items: center;
+    grid-template-columns: 1fr;
+    padding: 4rem;
 }
 .special-menu-pic img {
-    height: 8rem;
-    width: 8rem;
+    height: 11rem;
+    width: 11rem;
+}
+.special-menu-item {
+    margin-top: 4rem;
 }
 .menu-description {
     width: 80%;
@@ -158,8 +153,24 @@
 .blog-description {
     text-align: justify;
 }
-
+.blog-description h2 {
+    font-size: 1.2rem;
+}
 /* footer area styling */
 .ft {
     padding: 3rem 2rem;
+}
+a .fab {
+    font-size: 2.2rem;
+}
+.another-content ul li {
+    font-size: .9rem;
+    padding: 0 1rem;
+}
+.fot-menu ul li a {
+    font-size: .91rem;
+}
+.fot-menu ul li {
+    border-bottom: .2rem solid rgba(233, 177, 37, 0.18);
+    padding: .5rem 0;
 }
