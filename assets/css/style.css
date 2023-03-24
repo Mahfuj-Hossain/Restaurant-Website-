@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: glory, sans-serif;
   }
  
 
@@ -55,7 +54,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 70%;
   }
   .header-tag-line h2{
     font-family: montez;
@@ -68,17 +67,6 @@
    border-radius: 1.2rem;
    padding-bottom: 1rem;
   }
-  .header-tag-line{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: rgba(0, 0, 0, 0);
-    padding: 1rem 1rem;
-    border-radius: .8rem;
-  }
-  
-  
   /*---------------------------------------------------------
    The Main Menu Section is started from here
    ---------------------------------------------------------*/
@@ -185,11 +173,9 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     align-items: center;
     justify-content: center;
   }
@@ -202,26 +188,27 @@
   }
   .display-area-pic h2{
     font-family: 'Montez', cursive;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: goldenrod;
     margin-bottom: 3rem;
   }
   
   #btn{
-    height: 10rem;
-    width: 10rem;
-    font-size: 1.5rem;
+    height: 8rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
     background-color: rgba(0, 0, 0, 0.267);
     color: rgb(255, 183, 0);
-    font-family: Arial, Helvetica, sans-serif;
     border: .3rem solid white;
     border-radius: 50%;
     cursor: pointer;
     font-weight: 600;
   }
   #btn span{
-    font-size: 1.3rem;
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   
@@ -230,12 +217,11 @@
    -------------------------------------------*/
    .special-menu{
      background-color:  rgb(255, 255, 255);
-    height: 100vh;
-    width: 100%;
+    height:auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
     align-items: center;
+    padding: 5rem 0;
   }
   .special-menu-pic img{
     height: 13rem;
@@ -277,6 +263,12 @@
     border: .2rem black solid ;
     padding: .1rem;
   }
+  ul.menu-description {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
   .menu-description{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -284,15 +276,14 @@
   }
   .menu-description li{
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .description h2{
     text-transform: capitalize;
     margin-bottom: .5rem;
-    font-family: Glory, sans-serif;
+    font-family: montez, cursive,sans-serif;
     font-weight: bold;
+    font-size: 1.8rem;
   }
   .price p{
     font-size: 3rem;
@@ -381,6 +372,7 @@
     background-color: rgba(37, 3, 3, 0);
     border: none;
     outline: none;
+    font-family: montez, cursive, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -405,81 +397,6 @@
     color: white;
   }
   
-  /*---------------------------------------------------------
-       The footer Section is started from here
-   ---------------------------------------------------------*/
-   .ft{
-     background: linear-gradient(rgba(0, 0, 0, 0.853),rgba(0, 0, 0, 0.844)), url(../images/a8.jpg);
-     background-position: center;
-     background-size: cover;
-     background-attachment: fixed;
-     display: grid;
-     grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
-     height: auto;
-     padding: 3rem 0;
-     width: 100%;
-     color: white;
-   }
-   a .fab{
-     font-size: 3rem;
-     padding: .3rem;
-     color: white;
-   }
-   .social-icon {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-   }
-   .another-content{
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-   }
-   .another-content ul li{
-    list-style-type: none;
-    margin: .5rem 0;
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
-   
-   
-   .fot-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-     list-style-type: none;
-   }
-   
-   .fot-menu ul li{
-    list-style-type: none;
-    padding-bottom: .3rem;
-    text-align: center;
-   }
-   .fot-menu ul li a{
-    text-decoration: none;
-    font-size: 1.1rem;
-    color:white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-  }
-  .fot-menu ul li a:hover{
-    border-bottom: .15rem solid rgb(253, 199, 60);
-    background-color: rgba(148, 96, 11, 0.322);
-    padding: 0 2rem;
-    border-radius: .2rem;
-    font-size: 1.3rem;
-
-  }
-  .divider-line-footer{
-    display: inline-block;
-    height: 10rem;
-    width: .1rem;
-    background-color: goldenrod;
-  }
   
   
   /*---------------------------------------------------------
@@ -493,7 +410,7 @@
      height: 100vh;
      display: block;
      max-width: 100%;
-     height: auto;
+     height:80vh;
    }
    .about-mid-tag-line h2{
      color: white;
@@ -504,13 +421,12 @@
      font-weight: bolder;
      border-bottom: .7rem solid rgba(224, 162, 6, 0.876);
      border-radius: .7rem;
-
     }
    .about-mid-tag-line{
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 80vh;
+     height: 50vh;
    }
    /*---------------------------------------------------------
        Description of the about page is started from here 
@@ -560,7 +476,7 @@
   }
   .divider-line{
     display: inline-block;
-    height: 20rem;
+    height: 12rem;
     width: .2rem;
     background-color: goldenrod;
   }
@@ -928,7 +844,10 @@
     font-family: roboto;
     font-weight: normal;
     text-transform: uppercase;
-    padding-bottom: .3rem;
+    padding-bottom: .6rem;
+    border-bottom: .34rem solid goldenrod;
+    margin-bottom: 2rem;
+    width: fit-content;
   }
   .u-line{
     height: .1223rem;
@@ -978,3 +897,81 @@
     border:none
   }
 
+
+  /*---------------------------------------------------------
+       The footer Section is started from here
+   ---------------------------------------------------------*/
+   .ft{
+    background: linear-gradient(rgba(0, 0, 0, 0.853),rgba(0, 0, 0, 0.844)), url(../images/a8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr .1fr 1fr;
+    height: auto;
+    padding: 3rem 0;
+    width: 100%;
+    color: white;
+  }
+  a .fab{
+    font-size: 3rem;
+    padding: .3rem;
+    color: white;
+  }
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .another-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .another-content ul li{
+   list-style-type: none;
+   margin: .5rem 0;
+   text-align: center;
+   font-size: 1.1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .fot-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    list-style-type: none;
+  }
+  
+  .fot-menu ul li{
+   list-style-type: none;
+   padding-bottom: .3rem;
+   text-align: center;
+  }
+  .fot-menu ul li a{
+   text-decoration: none;
+   font-size: 1.1rem;
+   color:white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ }
+ .fot-menu ul li a:hover{
+   border-bottom: .15rem solid rgb(253, 199, 60);
+   background-color: rgba(148, 96, 11, 0.322);
+   padding: 0 2rem;
+   border-radius: .2rem;
+ }
+ .divider-line-footer{
+   display: inline-block;
+   height: 10rem;
+   width: .1rem;
+   background-color: goldenrod;
+ }
+ .fot-menu ul li {
+  border-bottom: .2rem solid rgba(233, 177, 37, 0.18);
+  padding: .5rem 0;
+}
